@@ -1,0 +1,57 @@
+Download Xampp From => https://www.apachefriends.org/download.html
+
+While installing check out :
+Filezilla FTP Server
+Mercury Mail Server
+Tomcat
+Perl
+Webalizer
+Fake Sendmail
+
+Open C:\xampp\xampp-control.exe and click red cross button left side of Apache and MySQL. Make them green check (It's for autorun apache and MySQL) Now start them.
+
+Secure default MySQL user accounts, root and pma through PHPMyAdmin :
+Click Mysql >> Admin button from Xampp control panel > User Accounts > Check two of red color “Any” and click “GO” button for remove them.
+
+Now in the row of Username: root and Hostname: localhost , there is a button name => Edit privileges , click it > Change Password & save it
+
+Now go to : C:\xampp\phpMyAdmin\config.inc.php and see at the beginning a comment /* Authentication type and info */
+After this comment type your password what have you set before
+
+Now replace the first line of ‘config’ to ‘cookie’
+Go back to http://localhost/phpmyadmin > set username and pass > User Account > root ::1 > Edit Privileges > Change Password > set pass again and save like before > Back to User Account > root 127.0.0.1 > Edit Privileges > Change Password > again like before.. > Back to User Account > pma localhost > Edit Privileges > Change Pass > again like before
+Now go back to C:\xampp\phpMyAdmin\config.inc.php and find a comment like 
+/* User for advanced features */
+And now set password after ‘pma’
+Now you can see an error at the end of the page on phpmyadmin like = The secret passphrase in configuration (blowfish_secret) is too short.
+Go back to “config.inc.php” and find the keyword “blowfish_secret” mybe it is at the beginning of the file. Now replace the name‘xampp’ to a big jumble keyword like this ‘354fd3sa84df31s68df46sa4df684sadf’ . After that you can see the error has been gone from the phpmyadmin page. And in the “User account” page see the pma localhost password say Yes.
+
+Now copy and paste two of files from crt folder in this directory => C:\xampp\apache\crt
+
+the file "cert.conf" has a domani name "dev.wp" inside of it. you can change inside the all of domane name if you need. 
+
+Now paste below code in C:\xampp\apache\conf\extra\httpd-vhosts.conf (also change domane name if you want)
+
+## dev.wp
+ <VirtualHost *:80>
+     DocumentRoot "C:/xampp/htdocs"
+     ServerName dev.wp
+     ServerAlias *.dev.wp
+ </VirtualHost>
+ <VirtualHost *:443>
+     DocumentRoot "C:/xampp/htdocs"
+     ServerName dev.wp
+     ServerAlias *.dev.wp
+     SSLEngine on
+     SSLCertificateFile "crt/dev.wp/server.crt"
+     SSLCertificateKeyFile "crt/dev.wp/server.key"
+ </VirtualHost>
+
+Now double click the "make-cert.bat" file and press enter every time it asking for information. But if you skip it by pressing enter it has defalut value. dont worry. 
+After finish this you will get a folder name of domain insite "C:\xampp\apache\crt" location.
+
+run the file "C:\xampp\apache\crt\dev.wp\server.crt" and click "Install Certificate" > Local Machine > Next > Place all certificate in the following store > click browse and select Trusted Root Certification Authorities > OK > Next > Finish.
+
+voila, it worked!
+
+tut link => https://shellcreeper.com/how-to-create-valid-ssl-in-localhost-for-xampp/
