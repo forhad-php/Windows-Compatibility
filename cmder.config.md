@@ -2,12 +2,10 @@
 Download → Unzip → Run Cmder.exe
 
 # Powerline Prompt :
-[cmder-powerline-prompt](https://github.com/AmrEldib/cmder-powerline-prompt)
-Download and unzip in → C:\cmder\config → Thats it!
+Download [cmder-powerline-prompt](https://github.com/AmrEldib/cmder-powerline-prompt) and unzip in → C:\cmder\config → Thats it!
 
 # Fonts :
-[powerline/fonts](https://github.com/powerline/fonts)
-- Download and unzip in cmder folder
+- Download [powerline/fonts](https://github.com/powerline/fonts) and unzip in cmder folder
 - install.ps1 → right click → Run with Poershell → Wait until finish
 - Done!
 
@@ -27,4 +25,4 @@ Download and unzip in → C:\cmder\config → Thats it!
 - Done!
 
 For more knowledge :
-[CustomizeWindowsCmderPrompt](https://amreldib.com/blog/CustomizeWindowsCmderPrompt/)
+Check [CustomizeWindowsCmderPrompt](https://amreldib.com/blog/CustomizeWindowsCmderPrompt/)
