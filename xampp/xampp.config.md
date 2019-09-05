@@ -30,7 +30,7 @@ Go to [sourceforge.net](https://sourceforge.net/projects/xampp/files/)
 - Go to: C:\Windows\System32\Drivers\etc\hosts
 - And add this to the bottom of the file:
 ```
-::1 your.domain.com
+::1 your.domain.com [Change only if it was not commented]
 127.0.0.1     your.domain.com
 ```
 
