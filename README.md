@@ -1,2 +1,4 @@
-# Windows-Compatibility
-:wrench:
+<kbd>Win</kbd>+<kbd>.</kbd>
+
+#  Run
+charmap
