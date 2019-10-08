@@ -16,7 +16,12 @@
 
 | Command | For |
 |-|-|
+| `msinfo32` | System Information
+| `.` | This single dot opens the current user’s home folder
 | `charmap` | Special characters panel
+| `control` | Control Panel
+| `appwiz.cpl` | Programs and Features
+| `services.msc` | List of Run Commands
 
 # Browser Shortcuts
 
