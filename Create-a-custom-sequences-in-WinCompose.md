@@ -1,3 +1,5 @@
+### https://github.com/samhocevar/wincompose
+
 1. Open the `C:\Program Files\WinCompose\res\WinCompose.txt` in **Notepade** with **Run as administrator**
 
 2. Add below line in the end - <br>
