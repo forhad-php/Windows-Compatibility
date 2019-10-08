@@ -22,6 +22,10 @@
 | `control` | Control Panel
 | `appwiz.cpl` | Programs and Features
 | `services.msc` | List of Run Commands
+| `sysdm.cpl` | System Properties
+| `systempropertiesadvanced` | Environment Variables
+| `desktop` | Desktop Folder
+| `write` or `wordpad` | WordPad
 
 # Browser Shortcuts
 
