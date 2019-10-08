@@ -29,6 +29,7 @@
 
 # Registry Hacks | <kbd>Win</kbd> + <kbd>r</kbd> `regedit`
 
+### Remove the OneDrive Button from the File Explorer
 <kbd>CTRL</kbd> + <kbd>F</kbd> : `{018D5C66-4533` <br>
 Value Name: System.IsPinnedToNameSpaceTree <br>
 Value Data: 0 <br>
