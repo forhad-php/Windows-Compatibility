@@ -29,13 +29,13 @@
 
 # Registry Hacks | <kbd>Win</kbd> + <kbd>r</kbd> `regedit`
 
-### Remove the OneDrive Button from the File Explorer
+### Remove the OneDrive Button from the File Explorer →
 <kbd>CTRL</kbd> + <kbd>F</kbd> : `{018D5C66-4533` <br>
 Value Name: System.IsPinnedToNameSpaceTree <br>
 Value Data: 0 <br>
 Full Path: `Computer\HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}`
 
-### Add Your Own Apps to the Context Menu
+### Add Your Own Apps to the Context Menu →
 Full Path: `Computer\HKEY_CLASSES_ROOT\Directory\Background\shell`
 > * Under the "shell" folder right-click and create a new key called "Pixie"
 > * Then within that create a key called "command"
