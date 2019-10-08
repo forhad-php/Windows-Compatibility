@@ -43,7 +43,7 @@ Full Path: `Computer\HKEY_CLASSES_ROOT\Directory\Background\shell`
 > * Under the "Pixie" folder create a "String Value" called "Icon" and paste the icon location "F:\pixie.exe"
 
 ### Disable Windows Startup Delay
-Full Path: Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\Current\Version\Explorer
+Full Path: Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer
 > * Right-click on “Explorer,” and then select “Key” from the “New” option. Once the new key is created, rename it “Serialize”
 > * If the “Serialize” key is already created under the “Explorer” key, then there is no need to go through the above process. After that right-click on “Serialize” and select “DWORD Value” from the “New” option. The DWORD Value key will be created in the panel on the right. Rename this key to “StartupDelayInMSec,” and make sure its value is set to “0.” Now you should notice a tiny boost in Windows startup time.
 
