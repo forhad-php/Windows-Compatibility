@@ -27,6 +27,12 @@
 | `desktop` | Desktop Folder
 | `write` or `wordpad` | WordPad
 
+# Registry Hacks | <kbd>Win</kbd> + <kbd>r</kbd> `regedit`
+
+| <kbd>CTRL</kbd> + <kbd>F</kbd> | Value Name | Value Data | Full Path |
+|-|-|
+| `{018D5C66-4533` | System.IsPinnedToNameSpaceTree | 0 | `Computer\HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}`
+
 # Browser Shortcuts
 
 | Shortcut | For |
