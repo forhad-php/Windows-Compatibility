@@ -29,9 +29,9 @@
 
 # Registry Hacks | <kbd>Win</kbd> + <kbd>r</kbd> `regedit`
 
-<kbd>CTRL</kbd> + <kbd>F</kbd> : `{018D5C66-4533`
-Value Name: System.IsPinnedToNameSpaceTree
-Value Data: 0
+<kbd>CTRL</kbd> + <kbd>F</kbd> : `{018D5C66-4533` <br>
+Value Name: System.IsPinnedToNameSpaceTree <br>
+Value Data: 0 <br>
 Full Path: `Computer\HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}`
 
 # Browser Shortcuts
