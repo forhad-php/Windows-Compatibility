@@ -35,6 +35,10 @@ Value Name: System.IsPinnedToNameSpaceTree <br>
 Value Data: 0 <br>
 Full Path: `Computer\HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}`
 
+### Add Your Own Apps to the Context Menu
+Full Path: `Computer\HKEY_CLASSES_ROOT\Directory\Background\shell`
+> Under the “shell” folder right-click and create a new key called “Notepad,” then within that create a key called “command.” In the “command” key folder right-click the “Default” string, then in the Value box type “notepad.exe.”
+
 # Browser Shortcuts
 
 | Shortcut | For |
