@@ -43,7 +43,7 @@ Full Path: `Computer\HKEY_CLASSES_ROOT\Directory\Background\shell`
 > * Under the "Pixie" folder create a "String Value" called "Icon" and paste the icon location "F:\pixie.exe"
 *Open with Cmder*
 > * Now we need to create a dynamic path to open **Cmder** with existing folder, then in the Value box paste the app location  "C:\cmder\Cmder.exe /start %v"
-> * 
+> * And for the icon, Cmder has a nice collection of icons. We can pick a yellow one from them "C:\cmder\icons\cmder_yellow.ico"
 
 ### Disable Windows Startup Delay
 Full Path: Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer
