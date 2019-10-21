@@ -38,9 +38,12 @@ Full Path: `Computer\HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1F
 ### Add Your Own Apps to the Context Menu →
 Full Path: `Computer\HKEY_CLASSES_ROOT\Directory\Background\shell`
 > * Under the "shell" folder right-click and create a new key called "Pixie"
-> * Then within that create a key called "command"
+> * Under the "Pixie" folder create a new key called "command"
 > * In the "command" key folder right-click the "Default" string, then in the Value box paste the app location "F:\pixie.exe"
 > * Under the "Pixie" folder create a "String Value" called "Icon" and paste the icon location "F:\pixie.exe"
+*Open with Cmder*
+> * Now we need to create a dynamic path to open **Cmder** with existing folder, then in the Value box paste the app location  "C:\cmder\Cmder.exe /start %v"
+> * 
 
 ### Disable Windows Startup Delay
 Full Path: Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer
