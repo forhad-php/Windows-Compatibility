@@ -1,4 +1,4 @@
-# My Favorite Tools For Development Environment :
+# My Favorite App & Tools For Development Environment :
 
 Name | For | Source
 -|-|-
