@@ -4,6 +4,9 @@ Name | For | Source
 -|-|-
 Lepton | Programing Note | https://electronjs.org/apps/lepton
 
+Browsers:
+_Google Chrome, Firefox Developer Edition, Brave
+
 _f.lux, VSCode, Cmder, Xampp, Flywheel, Ditto, Avro, Listary, IDM, Slack, Trello, Lightshot, DeskPins,
 
 _AutoHotkey, Camtasia Studio, KMPlayer, NetSpeedMonitor, WinCompose, 7-Zip, BitTorrent, Feem, Picasa, Pixie, 
