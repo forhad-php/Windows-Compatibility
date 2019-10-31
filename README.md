@@ -4,7 +4,9 @@ Name | For | Source
 -|-|-
 Lepton | Programing Note | https://electronjs.org/apps/lepton
 
-_f.lux, VSCode, Cmder, Xampp, Flywheel, Ditto, Avro, Listary, IDM, Slack, Trello, Lightshot, DeskPins
+_f.lux, VSCode, Cmder, Xampp, Flywheel, Ditto, Avro, Listary, IDM, Slack, Trello, Lightshot, DeskPins,
+_AutoHotkey, Camtasia Studio, KMPlayer, NetSpeedMonitor, WinCompose, 7-Zip, BitTorrent, Feem, Picasa, Pixie, 
+_Grammarly, Unlocker, Zeal, Shutdown Timer
 
 # Windows 10 Keyboard Shortcuts and Run Commands :
 
