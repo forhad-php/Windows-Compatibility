@@ -2,7 +2,7 @@
 
 Name | For
 -|-
-OneNote | Desktop Note
+Desktop Note | Notable <br> OneNote
 
 Browsers:
 _Google Chrome, Firefox Developer Edition, Brave
