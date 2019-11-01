@@ -1,8 +1,8 @@
 # My Favorite App & Tools For Development Environment :
 
-Name | For | Source
--|-|-
-Lepton | Programing Note | https://electronjs.org/apps/lepton
+Name | For
+-|-
+OneNote | Desktop Note
 
 Browsers:
 _Google Chrome, Firefox Developer Edition, Brave
