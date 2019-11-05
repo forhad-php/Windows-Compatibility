@@ -2,7 +2,7 @@
 
 Name | For
 -|-
-Desktop Note | Notable <br> OneNote
+Notes | Notable <br> OneNote <br> Google Keep
 
 Browsers:
 _Google Chrome, Firefox Developer Edition, Brave
