@@ -41,6 +41,7 @@ _Grammarly, Unlocker, Zeal, Shutdown Timer
 | `systempropertiesadvanced` | Environment Variables
 | `desktop` | Desktop Folder
 | `write` or `wordpad` | WordPad
+| `shell:startup` | Location of the Startup folder
 
 # Registry Hacks | <kbd>Win</kbd> + <kbd>r</kbd> `regedit`
 
