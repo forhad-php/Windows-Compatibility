@@ -6,12 +6,12 @@ Click Here → [cmder-powerline-prompt](https://github.com/AmrEldib/cmder-powerl
 Download the .lua files, and place it in C:\cmder\config folder. Thats it!
 
 # Fonts :
-- Download [powerline/fonts](https://github.com/powerline/fonts) and unzip in cmder folder
-- install.ps1 → right click → Run with Poershell → Wait until finish
+- Download [powerline/fonts](https://github.com/powerline/fonts) and unzip
+- Install "Monofur" and "AnonymousPro" fonts from it
 - Done!
 
 # Customize :
-- Cmder → Menu → Settings → Fonts → Main console font → Choose "Cousine for Powerline"
+- Cmder → Menu → Settings → Fonts → Main console font → Choose "monofur for Powerline"
 - Font charset : "Symbol"
 - Alternative font → "Mark it"
 - And choose "Anonymice Powerline" font
