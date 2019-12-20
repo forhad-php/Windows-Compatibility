@@ -22,6 +22,7 @@ Download [cmder-powerline-prompt](https://github.com/AmrEldib/cmder-powerline-pr
 - Advanced > Environment Variables... > System variables
 - select "Path" then click the Edit button > New
 - C:\cmder\vendor\git-for-windows\cmd\
+- Restart PC
 - Done!
 
 For more knowledge :
