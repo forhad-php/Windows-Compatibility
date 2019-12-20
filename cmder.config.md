@@ -2,7 +2,8 @@
 Download → Unzip → Run Cmder.exe
 
 # Powerline Prompt :
-Download [cmder-powerline-prompt](https://github.com/AmrEldib/cmder-powerline-prompt) and unzip in → C:\cmder\config → Thats it!
+Click Here → [cmder-powerline-prompt](https://github.com/AmrEldib/cmder-powerline-prompt)
+Download the .lua files, and place it in C:\cmder\config folder. Thats it!
 
 # Fonts :
 - Download [powerline/fonts](https://github.com/powerline/fonts) and unzip in cmder folder
