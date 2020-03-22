@@ -8,3 +8,9 @@
 6. Program/script: rasdial
   Add arguments (Optional): "Broadband Connection" USERNAME PASSWORD → Next
 7. Finish
+
+# Also create a shortcut one-click connection
+
+- First create a `.bat` file and write inside below things
+
+`rasdial "Broadband Connection" USERNAME PASSWORD`
