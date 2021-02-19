@@ -18,10 +18,9 @@
 Go to [sourceforge.net](https://sourceforge.net/projects/xampp/files/)
 
 - XAMPP Windows →
-- replace all php.ini 'xampp' path to 'C:/xampp' (no need)
-- folder → php & apache
-- xampp-portable-win32-7.3.0-0-VC15.zip
-- use folder 'apache' & 'php'
+- Download → xampp-portable-win32-7.3.0-0-VC15.zip
+- Replace the folder 'apache' & 'php' in `C:/xampp`
+- Done!
 
 # Set a custom domain
 
