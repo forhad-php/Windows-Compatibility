@@ -13,6 +13,8 @@ _AutoHotkey, Camtasia Studio, KMPlayer, NetSpeedMonitor, WinCompose, 7-Zip, BitT
 
 _Grammarly, Unlocker, Zeal, Shutdown Timer
 
+_Cloudflare WARP, HandBrake
+
 # Windows 10 Keyboard Shortcuts and Run Commands :
 
 | Shortcut | For |
