@@ -76,3 +76,4 @@ Full Path: Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\
 <kbd>CTRL</kbd> + <kbd>E</kbd> | Search
 <kbd>CTRL</kbd> + <kbd>T</kbd> | New Tab
 <kbd>CTRL</kbd> + <kbd>N</kbd> | New Window
+<kbd>CTRL</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd> | Re-opens the last closed tab.
