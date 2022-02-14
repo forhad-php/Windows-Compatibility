@@ -74,3 +74,5 @@ Full Path: Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\
 | Shortcut | For |
 |-|-|
 <kbd>CTRL</kbd> + <kbd>E</kbd> | Search
+<kbd>CTRL</kbd> + <kbd>T</kbd> | New Tab
+<kbd>CTRL</kbd> + <kbd>N</kbd> | New Window
